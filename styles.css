@@ -1,0 +1,35 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 20px;
+    background-image: url("https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/559404-istock-512966920-0-50208d6d9cc4851b46f975a876f49814.jpg");
+}
+
+#books{
+    padding: 5px;
+    text-align: center;
+    text-decoration: underline;
+    font-size:150px;
+    box-shadow: rgba(235, 39, 0, 0.971) 0px 54px 55px, rgba(252, 14, 14, 0.908) 0px -12px 30px, rgba(248, 9, 9, 0.925) 0px 4px 6px, rgba(252, 8, 8, 0.902) 0px 12px 13px, rgba(243, 9, 9, 0.09) 0px -3px 5px;
+    border-radius: 80px;
+    
+}
+
+#bookstore {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(10, 10, 10);
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.book {
+    border: 1px solid #040404;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: rgb(19, 46, 251) 0px 5px 15px;
+    border-radius: 20px;
+   
+}
